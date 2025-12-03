@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Website</title>
+
+    <style>
+        .video-container {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        iframe {
+            width: 350px;
+            height: 200px;
+            border-radius: 10px;
+        }
+
+        form {
+            background: #f5f5f5;
+            padding: 20px;
+            width: 400px;
+            border-radius: 10px;
+        }
+
+        form input, form select {
+            width: 100%;
+            padding: 8px;
+            margin: 10px 0;
+            border-radius: 6px;
+            border: 1px solid gray;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: black;
+            color: white;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/250px-Image_created_with_a_mobile_phone.png" alt="scenary">
+   
+    <h1>Welcome to Day 2</h1>
+
+    <!-- Video Section -->
+    <div class="video-container">
+
+        <!-- Video 1 -->
+        <iframe 
+            src="https://www.youtube.com/embed/HcOc7P5BMi4" 
+            title="HTML Full Course"
+            allowfullscreen>
+        </iframe>
+
+        <!-- Video 2 -->
+        <iframe 
+            src="https://www.youtube.com/embed/BeaVJggQ2dc" 
+            title="F1 Race Highlights"
+            allowfullscreen>
+        </iframe>
+
+        <!-- Video 3 -->
+        <iframe 
+            src="https://www.youtube.com/embed/ktlQrO2S-kQ" 
+            title="JavaScript Tutorial"
+            allowfullscreen>
+        </iframe>
+
+    </div>
+
+    <button>Click Here</button>
+
+    <hr><br>
+
+    <!-- Registration Form -->
+    <h2>Course Registration Form</h2>
+
+    <form>
+        <!-- Website URL -->
+        <label>Website URL:</label>
+        <input type="url" placeholder="Enter your website link">
+
+        <!-- Name -->
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name">
+
+        <!-- Password -->
+        <label>Password:</label>
+        <input type="password" placeholder="Enter password">
+
+        <!-- Upload File -->
+        <label>Upload File:</label>
+        <input type="file">
+
+        <!-- Date -->
+        <label>Select Date:</label>
+        <input type="date">
+
+        <!-- Time -->
+        <label>Select Time:</label>
+        <input type="time">
+
+        <!-- Course Selection -->
+        <label>Select Course:</label>
+        <select>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+            <option>Python</option>
+            <option>Data Science</option>
+        </select>
+
+        <!-- Week Selection -->
+        <label>Select Week:</label>
+        <select>
+            <option>Week 1</option>
+            <option>Week 2</option>
+            <option>Week 3</option>
+            <option>Week 4</option>
+        </select>
+
+        <!-- Month Selection -->
+        <label>Select Month:</label>
+        <select>
+            <option>January</option>
+            <option>February</option>
+            <option>March</option>
+            <option>April</option>
+            <option>May</option>
+            <option>June</option>
+            <option>July</option>
+            <option>August</option>
+            <option>September</option>
+            <option>October</option>
+            <option>November</option>
+            <option>December</option>
+        </select>
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+    <table border="1". cellpadding="8" cellspacing="0">
+       <th> the begining </th>
+       <marquee></marquee>
+       <tr> table 1</tr>
+                <tr> table 2</tr>
+                        <tr> table 3</tr>
+        <tr> table 4</tr>
+        <tr> table 5</tr>
+<marquee></marquee>
+
+    </table>
+
+</body>
+</html>
